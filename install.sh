@@ -1,7 +1,13 @@
+# if you are using AWS, remember to change the access right of pem file. 
+chmod 400 *.pem
+
+
 #install Oracle JDK
 
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
+
+sudo apt-get install oracle-java8-installer
 
 #install Cassandra Open Source Edition
 
