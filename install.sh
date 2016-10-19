@@ -1,5 +1,10 @@
+# Make sure the pem file is downloaded when it is created, and keep it safe on local MAC or PC.
+
 # if you are using AWS, remember to change the access right of pem file in the local MAC or PC.
 chmod 400 *.pem
+
+# Setup the ports to be open for EC2 of AWS
+https://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/install/installAMIsecurity.html
 
 
 sudo su
