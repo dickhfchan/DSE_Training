@@ -4,7 +4,7 @@
 chmod 400 *.pem
 
 # Setup the ports to be open for EC2 of AWS
-https://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/install/installAMIsecurity.html
+https://docs.datastax.com/en/cassandra/2.1/cassandra/install/installAMISecurityGroup.html
 
 
 sudo su
