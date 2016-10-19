@@ -1,6 +1,8 @@
-# if you are using AWS, remember to change the access right of pem file. 
+# if you are using AWS, remember to change the access right of pem file in the local MAC or PC.
 chmod 400 *.pem
 
+
+sudo su
 
 #install Oracle JDK
 
@@ -15,7 +17,7 @@ https://docs.datastax.com/en/cassandra/2.0/cassandra/install/installDeb_t.html
 
 
 # Must run on root access
-sudu su
+sudo su
 # vi command ESC : / "key word to be search" 
 # vi command ESE : I "Insert a word"
 # vi command ESE : DD "Delete the whole line
