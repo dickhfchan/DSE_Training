@@ -14,6 +14,15 @@ sudo apt-get install oracle-java8-installer
 https://docs.datastax.com/en/cassandra/2.0/cassandra/install/installDeb_t.html
 
 
+# Must run on root access
+sudu su
+# vi command ESC : / "key word to be search" 
+# vi command ESE : I "Insert a word"
+# vi command ESE : DD "Delete the whole line
+# vi command ESE : wq "save and quit"
+# vi command ESE : q! "focus to quit"
+
+
 ## Modify the cassandra.yaml configuration file before starting Cassandra cluster
 ## listen address and rpc address should be the ip_addreess of host while the seeds are the ip address of any two of three nodes.
 # vi /etc/dse/cassandra/cassandra.yaml
